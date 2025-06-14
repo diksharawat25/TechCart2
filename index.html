@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Character encoding set to UTF-8 -->
+    <meta charset="UTF-8">
+
+    <!-- Makes the website responsive on all screen sizes -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-commerce website</title>
+
+    <!-- Font Awesome CDN for icons like cart, user, etc. -->
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Header section begins -->
+    <section id="header">
+        <!-- Logo (clickable link to home) -->
+        <a href="#"><img src="image/TechCart.png" class="logo"></a>
+
+        <!-- Navigation menu -->
+        <div>
+            <!-- Navigation items -->
+            <ul id="navbar">
+                <li><a class="active" href="index.html">Home</a></li>
+                <li><a href="shop.html">Shop</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li id="lg-bag"><a href="cart.html"><i class="far fa-shopping-bag"></i></a></li>
+                <a href="#" id="close"><i class="far fa-times"></i></a>
+            </ul>
+        </div>
+        <div id="mobile">
+            <a href="cart.html"><i class="far fa-shopping-bag"></i></a>
+            <i id="bar" class="fas fa-outdent"></i> 
+        </div>
+    </section>
+
+    <section id="hero">
+        <h4>Upgrade to Smarter Tech!!</h4>
+        <h2 style="font-size: 40px;font-weight: 900;">Exclusive Deals on Latest Gadgets</h2>
+        <h3 style="color: rgb(4, 152, 103); font-weight: 900; font-size: 30px;">Explore premium tech gear with heavy
+            discounts & exciting offers.</h3>
+        <p style="color: gray;padding-top: 20px;font-size: 20px;padding-bottom: 10px;">Unlock savings with special
+            coupons — up to 30% OFF!</p>
+        <button>Shop Now</button>
+    </section>
+
+    <section id="feature" class="section-p1">
+        <div class="fe-box">
+            <img src="image/features/f1.png">
+            <h6>Free Shipping</h6>
+        </div>
+        <div class="fe-box">
+            <img src="image/features/f2.png">
+            <h6>Online Order</h6>
+        </div>
+        <div class="fe-box">
+            <img src="image/features/f3.png">
+            <h6>Save Money</h6>
+        </div>
+        <div class="fe-box">
+            <img src="image/features/f4.png">
+            <h6>Promotions</h6>
+        </div>
+        <div class="fe-box">
+            <img src="image/features/f5.png">
+            <h6>Happy Sell</h6>
+        </div>
+        <div class="fe-box">
+            <img src="image/features/f6.png">
+            <h6>F24/7 Support</h6>
+        </div>
+    </section>
+
+    <section id="product1" class="section-p1">
+        <h2>Featured Products</h2>
+        <p>Explore the latest gadgets and smart accessories</p>
+        <div class="pro-container">
+            <div class="pro">
+                <img src="image/products/laptop.jpg">
+                <div class="des">
+                    <span>Samsung</span>
+                    <h5>Galaxy Book2 Pro</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>$1,240</h4>
+                </div>
+                <a href="#"><i class="fal fa-shopping-cart cart"></i></a>
+            </div>
+            <div class="pro">
+                <img src="image/products/airpods.webp">
+                <div class="des">
+                    <span>Apple</span>
+                    <h5>MagSafe Charging Case (USB-C)</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>$130.99</h4>
+                </div>
+                <a href="#"><i class="fal fa-shopping-cart cart"></i></a>
+            </div>
+            <div class="pro">
+                <img src="image/products/charger.webp">
+                <div class="des">
+                    <span>ZEALBON</span>
+                    <h5>Connector Type USB Type C</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>$20</h4>
+                </div>
+                <a href="#"><i class="fal fa-shopping-cart cart"></i></a>
+            </div>
+            <div class="pro">
+                <img src="image/products/gamingcontroller.webp">
+                <div class="des">
+                    <span>PlayStation DualSense Wireless Controller </span>
+                    <h5>GameSir G7 SE Wired Controller for Xbox Series X|S</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>$47</h4>
+                </div>
+                <a href="#"><i class="fal fa-shopping-cart cart"></i></a>
+            </div>
+            <div class="pro">
+                <img src="image/products/macbook.jpg">
+                <div class="des">
+                    <span>MOSISO</span>
+                    <h5>compatible with MacBook Air 13 inch</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>$699</h4>
+                </div>
+                <a href="#"><i class="fal fa-shopping-cart cart"></i></a>
+            </div>
+            <div class="pro">
+                <img src="image/products/chargerhandler.webp">
+                <div class="des">
+                    <span>Samsung</span>
+                    <h5>USB C Charger Block</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>$6.49</h4>
+                </div>
+                <a href="#"><i class="fal fa-shopping-cart cart"></i></a>
+            </div>
+            <div class="pro">
+                <img src="image/products/chargingcabel.webp">
+                <div class="des">
+                    <span>Etguuds</span>
+                    <h5>Connector Type Usb Type C, Usb Type a</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>$9.32</h4>
+                </div>
+                <a href="#"><i class="fal fa-shopping-cart cart"></i></a>
+            </div>
+            <div class="pro">
+                <img src="image/products/Camera.webp">
+                <div class="des">
+                    <span>DSLR</span>
+                    <h5>Canon Eos rebel</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>$387</h4>
+                </div>
+                <a href="#"><i class="fal fa-shopping-cart cart"></i></a>
+            </div>
+        </div>
+        </div>
+    </section>
+
+    <section id="banner" class="section-m1">
+            <h4>Repair Services</h4>
+            <h2>Up to <span> 30% off </span>- All digital products</h2>
+            <button class="normal">Explore More</button>
+    </section>
+
+    <section id="product1" class="section-p1"> 
+        <h2>Latest Launches</h2>
+        <p>Fresh tech just in – grab the newest gadgets before they're gone!</p>
+        <div class="pro-container">
+            <div class="pro">
+                <img src="image/products/laptop2.jpg">
+                <div class="des">
+                    <span>Samsung</span>
+                    <h5>Galaxy Book2 Pro</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>$1,240</h4>
+                </div>
+                <a href="#"><i class="fal fa-shopping-cart cart"></i></a>
+            </div>
+            <div class="pro">
+                <img src="image/products/airpods2.webp">
+                <div class="des">
+                    <span>Apple</span>
+                    <h5>MagSafe Charging Case (USB-C)</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>$130.99</h4>
+                </div>
+                <a href="#"><i class="fal fa-shopping-cart cart"></i></a>
+            </div>
+            <div class="pro">
+                <img src="image/products/charger.webp">
+                <div class="des">
+                    <span>ZEALBON</span>
+                    <h5>Connector Type USB Type C</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>$20</h4>
+                </div>
+                <a href="#"><i class="fal fa-shopping-cart cart"></i></a>
+            </div>
+            <div class="pro">
+                <img src="image/products/gamingcontroller2.webp">
+                <div class="des">
+                    <span>PlayStation DualSense Wireless Controller </span>
+                    <h5>GameSir G7 SE Wired Controller for Xbox Series X|S</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>$47</h4>
+                </div>
+                <a href="#"><i class="fal fa-shopping-cart cart"></i></a>
+            </div>
+            <div class="pro">
+                <img src="image/products/macbook2.jpg">
+                <div class="des">
+                    <span>MOSISO</span>
+                    <h5>compatible with MacBook Air 13 inch</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>$699</h4>
+                </div>
+                <a href="#"><i class="fal fa-shopping-cart cart"></i></a>
+            </div>
+            <div class="pro">
+                <img src="image/products/chargerhandler2.webp">
+                <div class="des">
+                    <span>Samsung</span>
+                    <h5>USB C Charger Block</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>$6.49</h4>
+                </div>
+                <a href="#"><i class="fal fa-shopping-cart cart"></i></a>
+            </div>
+            <div class="pro">
+                <img src="image/products/chargingcabel.webp">
+                <div class="des">
+                    <span>Etguuds</span>
+                    <h5>Connector Type Usb Type C, Usb Type a</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>$9.32</h4>
+                </div>
+                <a href="#"><i class="fal fa-shopping-cart cart"></i></a>
+            </div>
+            <div class="pro">
+                <img src="image/products/Camera2.webp">
+                <div class="des">
+                    <span>DSLR</span>
+                    <h5>Canon Eos rebel</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>$387</h4>
+                </div>
+                <a href="#"><i class="fal fa-shopping-cart cart"></i></a>
+            </div>
+        </div>
+        </div>
+    </section>
+    
+    <section id="sm-banner" class="section-p1">
+        <div class="banner-box">
+            <h4>Crazy Deals</h4>
+            <h2>Big Savings on tech Brands</h2> 
+            <span>Smart Tech, Smarter Prices – Only at TechCart</span>
+            <button class="white">Learn More</button>
+        </div>
+        <div class="banner-box banner-box2">
+            <h4>Repair Services You Can Trust</h4>
+            <h2>Fast Reliable Affordable</h2>
+            <span>Expert repair solutions for all tech.</span>
+            <button class="white">Collections</button>
+        </div>
+    </section>
+    
+    <section id="banner3">
+        <div class="banner-box">
+            <h2>SEASONAL SALE</h2>
+            <h3>Just Landed: 2025 Tech Collection</h3>
+        </div>
+        <div class="banner-box banner-box2">
+            <h2>Bringing Tech to Your Doorstep</h2>
+            <h3>Your Digital Shopping Partner</h3>
+        </div>
+        <div class="banner-box banner-box3">
+            <h2 style="color: rgb(164, 49, 49);">Smart Tech, Smarter Shopping</h2>
+            <h3 style="color: rgb(4, 1, 2);">Check out our newest smart gadgets</h3>
+        </div>
+    </section>
+
+    <section id="newsletter"  class="section-p1 section-m1">
+        <div class="newstext">
+           <h4>Sign Up for Newsletters</h4>
+           <p>Get E-mail updates about our latest shop and <span>special offers.</span></p>
+        </div>
+        <div class="form">
+            <input type="text" placeholder="Your Email adress">
+            <button class="normal">Sign Up</button>
+        </div>
+    </section>
+
+    <footer class="section-p1">
+        <div class="col">
+            <img src="image/TechCart.png" class="logo logo2">
+            <h4 style="margin-top:25px ;">Contact</h4>
+            <p><strong>Address:</strong> Haridwar,Uttarakhand</p>
+            <p><strong>Phone:</strong> +91 76248XXXXX</p>
+            <p><strong>Hours:</strong>10:00- 18:00, Mon-Sat </p>
+            <div class="follow">
+                <h4>Follow Us</h4>
+                <div class="icon">
+                    <i class="fab fa-facebook-f"></i>
+                    <i class="fab fa-twitter"></i>
+                    <i class="fab fa-instagram"></i>
+                    <i class="fab fa-pinterest-p"></i>
+                    <i class="fab fa-youtube"></i>
+                </div>
+            </div>
+        </div>
+        <div class="col ">
+            <h4>About</h4>
+            <a href="#">About Us</a>
+            <a href="#">Delivery Information</a>
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms & Conditions</a>
+            <a href="#">Contact Us</a>
+        </div>
+        <div class="col">
+            <h4>My Account</h4>
+            <a href="#">Sign In</a>
+            <a href="#">View Cart</a>
+            <a href="#">My Wishlist</a>
+            <a href="#">Track my Orders</a>
+            <a href="#">Help</a>
+        </div>
+
+        <div class="col install">
+            <h4>Install App</h4>
+            <p>From App store or Google Play</p>
+            <div class="row">
+                <img src="image/pay/app.jpg" alt="">
+                <img src="image/pay/play.jpg" alt="">
+            </div>
+            <p>Secured Payment Gateways</p>
+            <img src="image/pay/pay.png" alt="">
+        </div>
+        <div class="copyright">
+            <p>© 2021,Tech2 etc- HTML CSS Ecommerce Template</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
